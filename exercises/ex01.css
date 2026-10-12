@@ -1,0 +1,42 @@
+HTML{background-color: peachpuff;}
+
+A {color: lawngreen;}
+A:hover {color: aqua; background: rgb(23,205,108)}
+
+UL {color: red
+}
+
+H1 {
+ background-color: rgb(228, 0, 124); color:rgb(82, 173, 172);
+ font-weight: normal;
+}
+
+P{color: purple; background-color: papayawhip; 
+padding: 20px; 
+margin: 50 px;
+font-size: 18px;
+}
+
+IMG {display: block; margin-left: auto; margin-right: auto;
+width: 50%;
+}
+
+#beyonce { width: 70%; }
+
+.highlight_01 {background-color:palevioletred}
+
+.highlight_01:hover {background-color: salmon}
+
+.highlight_01 strong {background-color: rgb(251,177,202)}
+
+.highlight_02 {background-color:yellowgreen}
+
+#main {background-color: azure; padding: 50px; -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); border-radius: 100000px;  
+}
+
+#gallery {
+display: flex; 
+flex-wrap: wrap; align-items: flex-start; row-gap: 30px; 
+column-gap: 50px; }
+#gallery IMG {width: 300px;}

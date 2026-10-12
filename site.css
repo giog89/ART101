@@ -1,0 +1,28 @@
+body {background-image: url(glitter.gif);
+background-repeat: no-repeat; 
+background-color: #E61433; 
+background-position: center center;
+text-align: center;
+background-size: cover;
+background-attachment:fixed;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;}
+
+H1, H2 {text-decoration: underline;}
+
+P {color: crimson;}
+
+.highlight_01:hover {background-color: whitesmoke;
+opacity: 65%; padding: 0.7px;}
+
+A {color: green}
+A:hover {background-color: white;
+opacity: 70%;
+padding: 1px;
+border-radius: 50px;}
+
+UL {list-style: none;}
+
+IMG {width: 200px}

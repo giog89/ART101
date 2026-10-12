@@ -1,0 +1,7 @@
+#gallery { display: flex; flex-wrap: wrap; align-items: flex-start; row-gap: 30px; column-gap: 50px;}
+
+#gallery IMG {width:300px;}
+
+#gallery DIV {background: #c1fffd8b; padding: 30px; border-radius: 30px;}
+
+#gallery DIV P {background: pink; padding: none; margin: none;}
