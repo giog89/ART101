@@ -1,0 +1,27 @@
+BODY {
+background-image: url(gar.gif);
+background-repeat: no-repeat;
+background-color: lightgreen;
+background-size: 100% 100%;
+background-attachment: fixed;
+text-align: center;
+font-size: 18px;
+font-weight: normal;
+}
+
+#firstp {padding-top: 8%;
+padding-left: 30%;
+padding-right: 30%;}
+
+#secp {padding-left: 30%;
+padding-right: 30%;}
+
+.highlight_01, .highlight_02 {background-color: honeydew; opacity: 65%;padding: 1px;}
+
+#choice {display: flex; justify-content: center; column-gap: 50px;}
+
+#choice DIV {background: honeydew; border-radius: 20px;}
+
+#choice IMG {width: 200px; height: auto;}
+
+#choice #cater {width: 300px; padding-top: 7.8%;}

@@ -40,3 +40,27 @@ display: flex;
 flex-wrap: wrap; align-items: flex-start; row-gap: 30px; 
 column-gap: 50px; }
 #gallery IMG {width: 300px;}
+
+
+
+/* home page styles*/
+
+#pan-home {position: relative; height: 100vh; background: url(images/fire.gif) repeat-x bottom;}
+
+#chicken {position: absolute; bottom: 10px; left: 40%;}
+
+#chicken2 {position: absolute; bottom: 50px; right: 10vw;}
+
+#chicken3 {position: absolute; bottom: 50px; left: 100px;}
+
+#homelink {position: absolute; top: 50px; right: 50px;}
+
+#homelink IMG { width: 40px;}
+
+
+
+.silkscreen-bold {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
