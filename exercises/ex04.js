@@ -1,10 +1,51 @@
 //the clicker button program
 
-let count=0;
+//we create a varibale named "count", the initia; valus is 0
 
-$("#needy-button").click(function(){
+let count=-0;
+let colorsCount=0;
+
+//an indexed array of data
+let colors=["green", "orange", "brown", "yellow", "gold", "purple", "red", "pink"];
+
+let buttonText=""
+
+//green, orange, brown,, yellow, gold, purple, red, pink
+
+//we listened for when an html element with id "needy-button" is clicked an then ...
+
+$("#needy-button").click( function(){
+
     //what to do when the button is clicked
+    //first, set a new value for "count", which is the current value + 1
+
     count = count + 1;
-    $("#needy-button").html("Clicked " + count + " times");
+
+    console.log (count);
+    console.log (colors[colorsCount]);
+
+    //now let's find out button and set a new text for it
+
+    buttonText="Clicked " + count + " times and color is " + colors[colorsCount];
+
+    $("#needy-button").html( buttonText );
     
+    $("body").css( "background-color", colors[colorsCount] );
+
+    //$("body").append("<img width='50' src='"+colors[colorsCount]  +".jpg'>")
+
+    if( count >= 16 ) { $("#needy-button").after("<p>my mood is ... wild!</p>");} else if (count >= 13) { $("#needy-button").after("<p>my mood is ... really agitated</p>");} else if (count >= 5) { $("#needy-button").after("<p>my mood is ... agitated</p>");}
+
+    //if( ( count >= 5 ) && (count < 13) ) { $("#needy-button").after("<p>my mood is ... agitated</p>");}
+
+    //if( count >= 13 ) { $("#needy-button").after("<p>my mood is ... really agitated</p>");}
+
+    //if( count >= 16 ) { $("#needy-button").after("<p>my mood is ... wild!</p>");}
+    
+    colorsCount = colorsCount +1;
+    
+    //if we run out of colors start from the first one anew    
+    if ( colorsCount >= 8 ) { colorsCount = 0; }
+
+
 });

@@ -9,9 +9,7 @@ font-size: 18px;
 font-weight: normal;
 }
 
-#firstp {padding-top: 8%;
-padding-left: 30%;
-padding-right: 30%;}
+#firstp {max-width: 700px; margin: 0 auto 0 auto;}
 
 #secp {padding-left: 30%;
 padding-right: 30%;}
@@ -25,3 +23,8 @@ padding-right: 30%;}
 #choice IMG {width: 200px; height: auto;}
 
 #choice #cater {width: 300px; padding-top: 7.8%;}
+
+.main-zone {display: flex; gap: 30px; align-items: center;  }
+
+#brock {object-fit: scale-down;}
+#tigerl {object-fit: scale-down;}
