@@ -7,6 +7,8 @@ background-attachment: fixed;
 text-align: center;
 font-size: 18px;
 font-weight: normal;
+padding-top: 5%;
+overflow: hidden;
 }
 
 #firstp {max-width: 700px; margin: 0 auto 0 auto;}
@@ -24,7 +26,8 @@ padding-right: 30%;}
 
 #choice #cater {width: 300px; padding-top: 7.8%;}
 
-.main-zone {display: flex; gap: 30px; align-items: center;  }
+.main-zone {display: flex; gap: 30px; align-items: center; justify-content: center; padding-top: 3%; }
 
-#brock {object-fit: scale-down;}
-#tigerl {object-fit: scale-down;}
+#brock { position: absolute; top: 95px; right: 60px; transform: rotate(60deg);}
+
+#goldf {position:absolute; top: 450px; left: 0px;  opacity: 40%; height: 500px; transform: rotate(120deg);}
