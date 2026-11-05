@@ -1,0 +1,48 @@
+BODY {
+background-image: url(gar.gif);
+background-repeat: no-repeat;
+background-color: lightgreen;
+background-size: 100% 100%;
+background-attachment: fixed;
+text-align: center;
+font-size: 18px;
+font-weight: normal;
+padding-top: 5%;
+overflow: hidden;
+}
+
+#background-button {
+background: transparent; 
+border: transparent;  
+position: absolute; 
+top: 50px; right: 50px; 
+font: inherit; 
+display: flex; 
+flex-direction: column;align-items: center;
+}
+
+#background-button img {width: 200px;height: auto;}
+
+.button-text {background-color: rgba(240, 255, 240, 0.65); padding: 0.79px; border-radius: 5px;}
+
+#firstp {max-width: 700px; margin: 0 auto 0 auto;}
+
+#secp {padding-left: 30%;
+padding-right: 30%;}
+
+.main-zone {display: flex;
+flex-direction: column; gap: 30px; align-items: center; justify-content: center; padding-top: 3%; }
+
+#ladybug-button, #caterpillar-button, #butterfly-button {background-color: honeydew; border: none; border-radius: 20px; padding: 15px; cursor: pointer; font: inherit;}
+
+#ladybug-button:hover, #caterpillar-button:hover, #butterfly-button:hover {
+    background-color: lightpink;
+}
+
+.highlight_01, .highlight_02, #environment-output {background-color: rgba(240, 255, 240, 0.65); padding: 0.79px; border-radius: 5px;}
+
+#choice {display: flex; justify-content: center; column-gap: 50px;}
+
+#choice IMG {width: 200px; height: auto;}
+
+#choice #cater {width: 300px; padding-top: 7.8%;}
